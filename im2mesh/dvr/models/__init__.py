@@ -11,6 +11,7 @@ from im2mesh.common import (
 # Decoder dictionary
 decoder_dict = {
     'simple': decoder.Decoder,
+    'siren': decoder.SirenDecoder
 }
 
 
